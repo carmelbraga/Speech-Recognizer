@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1EF1E90323E4A95100E64429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E90223E4A95100E64429 /* AppDelegate.swift */; };
 		1EF1E90523E4A95100E64429 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E90423E4A95100E64429 /* SceneDelegate.swift */; };
-		1EF1E90723E4A95100E64429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E90623E4A95100E64429 /* ViewController.swift */; };
 		1EF1E90A23E4A95100E64429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1E90823E4A95100E64429 /* Main.storyboard */; };
 		1EF1E90C23E4A95B00E64429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1E90B23E4A95B00E64429 /* Assets.xcassets */; };
 		1EF1E90F23E4A95B00E64429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1E90D23E4A95B00E64429 /* LaunchScreen.storyboard */; };
 		1EF1E91A23E4A95C00E64429 /* Speech_RecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E91923E4A95C00E64429 /* Speech_RecognizerTests.swift */; };
 		1EF1E92523E4A95C00E64429 /* Speech_RecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E92423E4A95C00E64429 /* Speech_RecognizerUITests.swift */; };
+		1EF1E93323E4B5C800E64429 /* RecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1E93223E4B5C700E64429 /* RecognizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		1EF1E8FF23E4A95100E64429 /* Speech Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF1E90223E4A95100E64429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF1E90423E4A95100E64429 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EF1E90623E4A95100E64429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EF1E90923E4A95100E64429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EF1E90B23E4A95B00E64429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF1E90E23E4A95B00E64429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		1EF1E92023E4A95C00E64429 /* Speech RecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speech RecognizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF1E92423E4A95C00E64429 /* Speech_RecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_RecognizerUITests.swift; sourceTree = "<group>"; };
 		1EF1E92623E4A95C00E64429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF1E93223E4B5C700E64429 /* RecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				1EF1E90223E4A95100E64429 /* AppDelegate.swift */,
 				1EF1E90423E4A95100E64429 /* SceneDelegate.swift */,
-				1EF1E90623E4A95100E64429 /* ViewController.swift */,
 				1EF1E90823E4A95100E64429 /* Main.storyboard */,
 				1EF1E90B23E4A95B00E64429 /* Assets.xcassets */,
 				1EF1E90D23E4A95B00E64429 /* LaunchScreen.storyboard */,
 				1EF1E91023E4A95B00E64429 /* Info.plist */,
+				1EF1E93223E4B5C700E64429 /* RecognizerViewController.swift */,
 			);
 			path = "Speech Recognizer";
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF1E90723E4A95100E64429 /* ViewController.swift in Sources */,
 				1EF1E90323E4A95100E64429 /* AppDelegate.swift in Sources */,
+				1EF1E93323E4B5C800E64429 /* RecognizerViewController.swift in Sources */,
 				1EF1E90523E4A95100E64429 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
